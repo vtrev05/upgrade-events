@@ -11,3 +11,21 @@ function handleClick(e) {
 btn.addEventListener('click', handleClick)
 
 //iteration 2
+
+const inputFocus = document.querySelector('.focus');
+
+function handleFocus() {
+    console.log(inputFocus.value)
+}
+
+inputFocus.addEventListener('focus', handleFocus)
+
+//iteration 3
+
+const inputInput = document.querySelector('.value');
+
+function handleInput() {
+    console.log(inputInput.value)
+}
+
+inputInput.addEventListener('input', handleInput)
